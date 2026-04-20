@@ -200,7 +200,7 @@ References are files that map human-readable names to commit hashes:
 2. Updates the branch file to contain the new commit's hash
 3. HEAD still points to the branch, so it "follows" automatically
 
-```
+````
 Before commit:                    After commit:
 
 HEAD ─► main ─► C2 ─► C1         HEAD ─► main ─► C3 ─► C2 ─► C1
@@ -208,7 +208,7 @@ HEAD ─► main ─► C2 ─► C1         HEAD ─► main ─► C3 ─► C
 
 ### The Index (Staging Area)
 
-The index is the "preparation area" for the next commit. It tracks which files are staged.
+The index is the "preparation area" for the next commit. It tracks which files are staged. 
 
 ```
 Working Directory          Index               Repository (HEAD)
